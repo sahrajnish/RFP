@@ -111,7 +111,7 @@ const ListRFP = () => {
                                             <th>Min Amount</th>
                                             <th>Max Amount</th>
                                             <th>Status</th>
-                                            <th>Action</th>
+                                            {/* <th>Action</th> */}
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -123,9 +123,9 @@ const ListRFP = () => {
                                                 <td>{r.minimum_price}</td>
                                                 <td>{r.maximum_price}</td>
                                                 <td><span class="badge badge-pill badge-success">Open</span></td>
-                                                <td>
+                                                {/* <td>
                                                     <a href="#" title="Close RFP" class="text-danger"><i class="mdi mdi-circle-off-outline"></i></a>
-                                                </td>
+                                                </td> */}
                                             </tr>
                                         ))}
                                     </tbody>
